@@ -1,36 +1,30 @@
-# Website Portofolio Pribadi Dinamis dengan PHP & Admin Panel
+🌐 Dynamic Personal Portfolio Website with PHP & Admin Panel
+This is a personal portfolio website project built from scratch using native PHP and MySQL database. The project is designed to showcase a profile, skills, education history, experiences, and past projects. All website content is fully dynamic and can be managed through a functional and secure admin panel.
 
-Ini adalah proyek website portofolio pribadi yang dibangun dari awal menggunakan PHP native dan database MySQL. Proyek ini dirancang untuk menampilkan profil, keahlian, riwayat pendidikan, pengalaman, hingga proyek yang pernah dikerjakan. Seluruh konten di website ini bersifat dinamis dan dapat dikelola sepenuhnya melalui panel admin yang fungsional dan aman.
+Live site: https://mawanportofolio.infinityfreeapp.com/
 
-link website: (https://mawanportofolio.infinityfreeapp.com/)
+🌟 Key Features
+Public Website (Frontend)
+Modern & Responsive Design: Sleek dark-themed interface that adapts well to both desktop and mobile devices.
+Scroll Animations: Smooth fade-in and slide-up animations triggered as users scroll, enhancing the browsing experience.
+Advanced Navigation: Includes a dropdown menu and an active state indicator that highlights the currently viewed section or page.
+Dynamic Content: All sections, including bio, skills, projects, education, experiences, organizations, articles, and services, are loaded directly from the database.
+Detailed Pages: Visitors can click "Read More" on articles to access the full content on a separate detail page.
+Contact Form: Functional contact form that stores visitor messages directly into the database.
 
-## 🌟 Fitur Utama
+🧰 Admin Panel (Backend)
+Informative Dashboard: The admin homepage displays a summary of website content (total projects, articles, etc.) and a recent activity feed.
+Session Security: Includes a session timeout system that automatically logs out inactive users for added security.
+Content Management (CRUD):
+General Settings: Modify name, tagline, bio, and profile photo.
+Manage History: Add, edit, and delete Education, Experience, and Organization entries all in one integrated page.
+Manage Skills: Add, edit, and delete skills, with the option to select icons from Font Awesome.
+Manage Projects: Full project management with support for image uploads.
+Manage Articles & Services: Full CRUD functionality for blog articles and offered services.
+Interactive Interface: Most admin forms use a clean “Add New” toggle feature to keep the interface organized and user-friendly.
 
-### Website Publik (Frontend)
-* **Desain Modern & Responsif:** Tampilan tema gelap yang elegan dan dapat menyesuaikan diri dengan baik di perangkat desktop maupun mobile.
-* **Animasi Scroll:** Efek animasi *fade-in* dan *slide-up* saat pengunjung scroll halaman, memberikan pengalaman pengguna yang lebih hidup.
-* **Navigasi Canggih:** Dilengkapi menu dropdown dan fitur *active state* yang menandai halaman atau bagian yang sedang dilihat.
-* **Konten Dinamis:** Semua bagian seperti bio, keahlian, proyek, riwayat pendidikan, pengalaman, organisasi, artikel, dan layanan diambil langsung dari database.
-* **Halaman Detail:** Pengunjung bisa mengklik "Read More" pada artikel untuk melihat isinya secara penuh di halaman terpisah.
-* **Formulir Kontak:** Formulir kontak fungsional yang akan menyimpan pesan dari pengunjung langsung ke database.
-
-### Panel Admin (Backend)
-* **Dashboard Informatif:** Halaman utama admin yang menampilkan ringkasan statistik konten website (jumlah proyek, artikel, dll.) dan daftar aktivitas terbaru.
-* **Keamanan Sesi:** Dilengkapi sistem keamanan dengan *session timeout*, yang akan otomatis logout jika tidak ada aktivitas selama periode tertentu.
-* **Manajemen Konten (CRUD):**
-    * **Pengaturan Umum:** Mengubah nama, tagline, bio, dan foto profil.
-    * **Kelola Riwayat:** Menambah, mengedit, dan menghapus data Pendidikan, Pengalaman, dan Organisasi dalam satu halaman terpadu.
-    * **Kelola Keahlian:** Menambah, mengedit, dan menghapus daftar keahlian, lengkap dengan pilihan ikon dari Font Awesome.
-    * **Kelola Proyek:** Manajemen proyek penuh, termasuk fungsionalitas untuk upload gambar proyek.
-    * **Kelola Artikel & Layanan:** Manajemen penuh untuk konten artikel dan layanan yang ditawarkan.
-    * **Manajemen User:** Mengelola akun yang dapat mengakses panel admin.
-* **Antarmuka Interaktif:** Sebagian besar form manajemen menggunakan toggle "Add New" untuk menjaga antarmuka tetap bersih dan rapi.
-
-## 🛠️ Teknologi yang Digunakan
-
-* **Backend:** PHP Native
-* **Database:** MySQL / MariaDB
-* **Frontend:** HTML5, CSS3 (dengan Flexbox & Grid), JavaScript (ES6)
-* **Lingkungan Pengembangan:** XAMPP (Apache, MySQL, PHP)
-
-Proyek ini dibuat sebagai bagian dari pemenuhan tugas Ujian Akhir Semester (UAS).
+🛠️ Technologies Used
+Backend: Native PHP
+Database: MySQL / MariaDB
+Frontend: HTML5, CSS3 (using Flexbox & Grid), JavaScript (ES6)
+Development Environment: XAMPP (Apache, MySQL, PHP)
