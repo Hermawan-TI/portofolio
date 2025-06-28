@@ -2,8 +2,6 @@
 
 Ini adalah proyek website portofolio pribadi yang dibangun dari awal menggunakan PHP native dan database MySQL. Proyek ini dirancang untuk menampilkan profil, keahlian, riwayat pendidikan, pengalaman, hingga proyek yang pernah dikerjakan. Seluruh konten di website ini bersifat dinamis dan dapat dikelola sepenuhnya melalui panel admin yang fungsional dan aman.
 
-![Tampilan Website Portofolio](https://i.imgur.com/image_99c0dc.png)
-
 ## 🌟 Fitur Utama
 
 ### Website Publik (Frontend)
@@ -32,39 +30,5 @@ Ini adalah proyek website portofolio pribadi yang dibangun dari awal menggunakan
 * **Database:** MySQL / MariaDB
 * **Frontend:** HTML5, CSS3 (dengan Flexbox & Grid), JavaScript (ES6)
 * **Lingkungan Pengembangan:** XAMPP (Apache, MySQL, PHP)
-
-## 🚀 Cara Instalasi & Menjalankan Proyek
-
-1.  **Clone Repository**
-    ```bash
-    git clone [https://github.com/](https://github.com/)[username-github-anda]/[nama-repository-anda].git
-    ```
-2.  **Setup Database**
-    * Buka **phpMyAdmin**.
-    * Buat database baru dengan nama `db_portofolio`.
-    * Pilih database tersebut, lalu buka tab **SQL**.
-    * Salin seluruh isi dari file `db_portofolio.sql` dan jalankan.
-
-3.  **Konfigurasi Koneksi**
-    * Buka file `includes/db.php`.
-    * Sesuaikan pengaturan `$db_host`, `$db_user`, `$db_pass`, dan `$db_name` jika berbeda dari pengaturan XAMPP default Anda.
-
-4.  **Pindahkan Folder Proyek**
-    * Pindahkan seluruh folder proyek ke dalam direktori `htdocs` di dalam instalasi XAMPP Anda (contoh: `C:\xampp\htdocs\portfolio`).
-
-5.  **Jalankan Server**
-    * Buka XAMPP Control Panel dan jalankan service **Apache** dan **MySQL**.
-
-6.  **Akses Website**
-    * **Website Publik:** Buka browser dan akses `http://localhost/portfolio/`
-    * **Panel Admin:** Akses `http://localhost/portfolio/admin/`
-        * **Username:** `hermawan`
-        * **Password:** `hermawan_01`
-
-## Kontributor Utama
-
-* **[NAMA ANDA]** - [JURUSAN ANDA]
-    * GitHub: [@Hermawan-TI](https://github.com/Hermawan-TI)
-    * LinkedIn: [Hermawan](https://www.linkedin.com/in/hermawan-0a3a03357/)
 
 Proyek ini dibuat sebagai bagian dari pemenuhan tugas Ujian Akhir Semester (UAS).
