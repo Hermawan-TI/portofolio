@@ -2,6 +2,8 @@
 
 Ini adalah proyek website portofolio pribadi yang dibangun dari awal menggunakan PHP native dan database MySQL. Proyek ini dirancang untuk menampilkan profil, keahlian, riwayat pendidikan, pengalaman, hingga proyek yang pernah dikerjakan. Seluruh konten di website ini bersifat dinamis dan dapat dikelola sepenuhnya melalui panel admin yang fungsional dan aman.
 
+![Tampilan Website Portofolio](https://mawanportofolio.infinityfreeapp.com/)
+
 ## 🌟 Fitur Utama
 
 ### Website Publik (Frontend)
